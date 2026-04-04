@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4d407fa-db22-4d28-9f17-494479e3dbc2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Academia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Operacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Operador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prova_1_26-2-26/prova_1_26-2-26.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/B_Repetição_e_seleção/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/B_Repetição_e_seleção/Ex02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex03.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/B_Repetição_e_seleção/Ex03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex031.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/B_Repetição_e_seleção/Ex031.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex041.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/B_Repetição_e_seleção/Ex041.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex042.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/B_Repetição_e_seleção/Ex042.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex043.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/B_Repetição_e_seleção/Ex043.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex044.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/B_Repetição_e_seleção/Ex044.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex045.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/B_Repetição_e_seleção/Ex045.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex03.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex04.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex05.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex06.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex07.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex08.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex09.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex10.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/A_Introdução/Ex10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Orientação_a_objetos/Academia.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Academia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Orientação_a_objetos/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Nota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Orientação_a_objetos/NovoCalculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/NovoCalculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Orientação_a_objetos/QuatroOperacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/QuatroOperacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Ex10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/Introdução/Ex10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/JavaINF3MJulia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/build/classes/Operacoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/build/classes/Operador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/build/classes/tratamento_de_erros_e_math_e_calendario/Calendario/Teste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/build/classes/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros/Academia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/build/classes/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros/Operacoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/build/classes/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros/Operador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/build/classes/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros/Paciente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/build/classes/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros_e_Math_e_calenario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/src/tratamento_de_erros_e_math_e_calendario/Calendario/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/F_Calendario/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/src/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros/Academia.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Academia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/src/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros/Operacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Operacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/src/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros/Operador.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Operador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/src/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tratamento_de_erros_e_Math_e_calenario/src/tratamento_de_erros_e_math_e_calendario/Tratamento_de_erros_e_Math_e_calenario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/build/classes/juliacarolina_prova1.class" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/build/classes/juliacarolina_prova1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/build/classes/verAluno_juliacarolina.class" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/build/classes/verAluno_juliacarolina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/src/juliacarolina_prova1.java" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/src/juliacarolina_prova1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_dia_26_de_marco_2026/src/verAluno_juliacarolina.java" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/src/verAluno_juliacarolina.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3BtgsKXO5MKOGG5aTcv1fEsKZnZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4d407fa-db22-4d28-9f17-494479e3dbc2" name="Changes" comment="" />
+      <created>1775313988384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775313988384</updated>
+      <workItem from="1775313992793" duration="624000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
