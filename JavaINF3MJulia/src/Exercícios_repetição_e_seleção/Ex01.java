@@ -1,0 +1,13 @@
+package Exercícios_repetição_e_seleção;
+
+public class Ex01 {
+
+    public static void main(String[] args) {
+        int res;
+        for(int i = 1; i <= 10; i++) {
+            res = i * 2;
+            System.out.println(i + " x 2 = " + res);
+        }
+    }  
+}
+
