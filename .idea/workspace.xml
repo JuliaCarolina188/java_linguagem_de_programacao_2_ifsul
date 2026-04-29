@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eebb5690-fb31-494d-839b-ff8a0a97937f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/JavaINF3MJulia.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/JavaINF3MJulia2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex031.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex041.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex042.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex043.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex044.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex045.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Introdução/Ex01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Introdução/Ex02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Introdução/Ex03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Introdução/Ex04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Introdução/Ex05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Introdução/Ex06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Introdução/Ex07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Introdução/Ex08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Introdução/Ex09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/Orientação_a_objetos/Calc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/build/classes/javainf3mjulia/JavaINF3MJulia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex031.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex041.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex042.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex043.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex044.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex045.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Introdução/Ex10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/Orientação_a_objetos/Calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/JavaINF3MJulia/src/javainf3mjulia/JavaINF3MJulia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex031.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex041.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex042.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex043.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex044.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Exercícios_repetição_e_seleção/Ex045.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Introdução/Ex01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Introdução/Ex02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Introdução/Ex03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Introdução/Ex04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Introdução/Ex05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Introdução/Ex06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Introdução/Ex07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Introdução/Ex08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Introdução/Ex09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Orientação_a_objetos/Academia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Orientação_a_objetos/Calc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Orientação_a_objetos/Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Orientação_a_objetos/NovoCalculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/Orientação_a_objetos/QuatroOperacoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Ex01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Ex02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Ex03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Ex04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Ex05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Ex06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Ex08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Ex09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Introdução/Ex01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Introdução/Ex02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Introdução/Ex03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Introdução/Ex04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Introdução/Ex05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Introdução/Ex06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Introdução/Ex07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Introdução/Ex08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/Introdução/Ex09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/JavaINF3MJulia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/build/classes/javainf3mjulia/ex07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Academia.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Academia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Operacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Operacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Operador.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/Operador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/C_Orientação_a_objetos/Exercícios/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Academia.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Academia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Operacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Operacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Operador.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Operador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex031.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex041.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex042.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex043.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex044.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Exercícios_repetição_e_seleção/Ex045.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/G_Vetores/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/G_Vetores/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/G_Vetores/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/G_Vetores/Ex04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/G_Vetores/Ex05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Introdução/Ex10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/Orientação_a_objetos/Calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaINF3MJulia/src/javainf3mjulia/JavaINF3MJulia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_1_26-2-26/prova_1_26-2-26.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prova_1_26-2-26/prova_1_26-2-26.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_Introdução/Ex10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B_Repetição_e_seleção/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B_Repetição_e_seleção/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B_Repetição_e_seleção/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B_Repetição_e_seleção/Ex031.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B_Repetição_e_seleção/Ex041.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B_Repetição_e_seleção/Ex042.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B_Repetição_e_seleção/Ex043.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B_Repetição_e_seleção/Ex044.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B_Repetição_e_seleção/Ex045.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Orientação_a_objetos/Academia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Orientação_a_objetos/Exercícios/Academia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Orientação_a_objetos/Exercícios/Operacoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Orientação_a_objetos/Exercícios/Paciente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Orientação_a_objetos/Nota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Orientação_a_objetos/NovoCalculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Orientação_a_objetos/QuatroOperacoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D_Tratamento_de_erros/Academia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D_Tratamento_de_erros/Correção_da_prova_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Correção_da_prova_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D_Tratamento_de_erros/Correção_da_prova_verAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/D_Tratamento_de_erros/Correção_da_prova_verAluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D_Tratamento_de_erros/Operacoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D_Tratamento_de_erros/Operador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D_Tratamento_de_erros/Paciente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_Calendario/Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/G_Vetores/Introdução/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/Introdução/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/G_Vetores/Introdução/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/Introdução/Ex02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/G_Vetores/Introdução/Ex03.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/Introdução/Ex03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/G_Vetores/Introdução/Ex04.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/Introdução/Ex04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/G_Vetores/Introdução/Ex05.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/Introdução/Ex05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/G_Vetores/Introdução/Ex06.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/Introdução/Ex06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/G_Vetores/Mais_exercícios/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaINF3MJulia/src/G_Vetores/Mais_exercícios/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operador.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3D1obwhoEesauNGg7HSkY4u9X6n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ex01.executor": "Run",
+    "Application.G_Vetores.Introdução.Ex01.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaINF3MJulia" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.G_Vetores.Introdução.Ex01">
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_Vetores.Mais_exercícios.Ex01" />
+      <module name="JavaINF3MJulia2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="G_Vetores.Mais_exercícios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G_Vetores.Introdução.Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_Vetores.Introdução.Ex01" />
+      <module name="JavaINF3MJulia2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="G_Vetores.Introdução.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JavaINF3MJulia" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JavaINF3MJulia" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.G_Vetores.Introdução.Ex01" />
+        <item itemvalue="Application.Ex01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eebb5690-fb31-494d-839b-ff8a0a97937f" name="Changes" comment="" />
+      <created>1777459013410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777459013410</updated>
+      <workItem from="1777459017644" duration="1953000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
