@@ -4,7 +4,7 @@ import D_Tratamento_de_erros.Operador;
 
 public class Ex01 {
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Operador opera = new Operador();
 
         int n1;
