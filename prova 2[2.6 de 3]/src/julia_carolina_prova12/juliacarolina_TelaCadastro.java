@@ -6,6 +6,7 @@ import java.util.GregorianCalendar;
 public class juliacarolina_TelaCadastro {
 
     public static void main(String[] args) {
+    //6-5-26
         juliacarolina_Resultado metodo = new juliacarolina_Resultado();
 
         String nome;
