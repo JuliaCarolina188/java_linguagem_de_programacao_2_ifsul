@@ -1,33 +1,21 @@
 package C_Orientação_a_objetos.Encapsulamento;
 
-import java.util.Scanner;
-
 public class ArCondicionado {
 
-    public int temperatura;
+    private int temperatura = 20;
 
-    public int MudarTemperatura() {
-        ArCondicionado ar = new ArCondicionado();
-        Scanner input = new Scanner(System.in);
-        boolean ok = false;
-        int temperatura = 0;
-
-        while (!ok) {
-            try {
-                System.out.print("Digite a temperatura\n>");
-                temperatura = input.nextInt();
-                if (temperatura > 35 || temperatura < 15) {
-                    System.out.print("Valor fora do intervalo esperado.");
-                } else {
-                    ok = true;
-                }
-            } catch (Exception e) {
-                System.out.print("Erro: " + e + "\n");
-                input.nextLine();
-
+    void MudarTemperatura(byte temp) {
+        if (temp > 35 || temp < 15) {
+            System.out.println("      Temperatura maior do que o possivel(15 - 35)");
+        } else {
+            if(temp > (temperatura + 1) || temperatura < (temp - 1)){
+                System.out.println("      Diferenca de mais ou de menos que 1 da temperatura atual " + (temperatura + 1) + "/" + (temperatura - 1));
             }
+            this.temperatura = temp;
         }
-
-        return temperatura;
+    }
+    
+    int Mostraremperatura(){
+        return this.temperatura;
     }
 }
