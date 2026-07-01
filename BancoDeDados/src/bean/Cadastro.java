@@ -46,14 +46,15 @@ public class Cadastro {
 
     public void incluir(Connection conn) throws SQLException {
         String sqlInsert = "INSERT INTO contatos(nome, telefone, email, cpf) VALUES ( ?, ?,?,?)";
+        
         PreparedStatement stm = null;
+        
         stm = conn.prepareStatement(sqlInsert);
-        //Aqui, substitui a primeira interrogação pelo nome do cliente
         stm.setString(1, getNome());
         stm.setString(2, getTelefone());
         stm.setString(3, getEmail());
         stm.setString(4, getCpf());
-        // o comando execute()
+
         stm.execute();
     }
 }
