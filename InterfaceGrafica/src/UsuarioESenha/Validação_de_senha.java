@@ -1,4 +1,4 @@
-package AulaoMal;
+package UsuarioESenha;
 
 public class Validação_de_senha {
 

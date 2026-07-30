@@ -1,46 +1,42 @@
-package AulaoMal;
+package UsuarioESenha;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Metodos_validacao {
+    private boolean validaArroba(String email) {
+        String[] emailVetor = email.split("");
+        byte arrobas = 0;
 
-    protected String ValidacaoEmail() {
-        Scanner input = new Scanner(System.in);
-        ArrayList<String> endereco = new ArrayList<>();
-        boolean emailValido = false;
-        boolean possuiArroba = false;
-        String email = null;
-        String[] emailVetor;
-        String dominio;
-
-        while (!emailValido) {
-            System.out.print("Digite seu email\n>");
-            email = input.next();
-            emailVetor = email.split("");
-            if (!email.contains(".")) {
-                System.out.print("Problema da validacao do email. ");
-            } else {
-                for (int i = email.lastIndexOf('.') + 1; i < emailVetor.length; i++) {
-                    endereco.add(emailVetor[i]);
-                }
-                for (int i = 0; i < emailVetor.length - 1; i++) {
-                    if ("@".equals(emailVetor[i])) {
-                        possuiArroba = true;
-                    }
-                }
-
-                dominio = String.join("", endereco);
-
-                if (("com".equals(dominio) || "edu".equals(dominio) || "gov".equals(dominio) || "br".equals(dominio)) && possuiArroba) {
-                    emailValido = true;
-                } else {
-                    System.out.println("Problema com a insercao do email.");
-                    endereco.clear();
-                }
+        for (int i = 0; i < emailVetor.length - 1; i++) {
+            if ("@".equals(emailVetor[i])) {
+                arrobas += 1;
             }
         }
-        return email;
+
+        if (arrobas == 1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    private boolean validaDominio(String email) {
+        ArrayList<String> endereco = new ArrayList<>();
+        String[] emailVetor = email.split("");
+        
+        for (int i = email.lastIndexOf('.') + 1; i < emailVetor.length; i++) {
+            endereco.add(emailVetor[i]);
+        }
+        
+        String dominio = String.join("", endereco);
+
+        if ("com".equals(dominio) || "edu".equals(dominio) || "gov".equals(dominio) || "br".equals(dominio)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     String ValidacaoSenha() {
@@ -121,4 +117,6 @@ public class Metodos_validacao {
         }
         return senha;
     }
+    
+    private boolean valida 
 }
