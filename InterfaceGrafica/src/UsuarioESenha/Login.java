@@ -101,15 +101,10 @@ public class Login extends javax.swing.JFrame {
 
     private void botaoEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoEntrarActionPerformed
         // TODO add your handling code here:
-        Metodos_validacao validacao = new Metodos_validacao();
-        String usuario = txtUsuario.getText();
-        String senha = txtSenha.getText();
+        Metodos_validacao metodos = new Metodos_validacao();
 
-        if (usuario.equals("julia") && senha.equals("12345")){
-            JOptionPane.showMessageDialog(rootPane, "Bem vindo");
-        } else {
-            JOptionPane.showMessageDialog(rootPane, "Entrada incor");
-        }
+        JOptionPane.showMessageDialog(this, metodos.mostraErros(senha), "Erro", JOptionPane.ERROR_MESSAGE);
+
     }//GEN-LAST:event_botaoEntrarActionPerformed
 
     private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsuarioActionPerformed

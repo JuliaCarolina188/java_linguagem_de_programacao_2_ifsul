@@ -5,6 +5,7 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Metodos_validacao {
+
     private boolean validaArroba(String email) {
         String[] emailVetor = email.split("");
         byte arrobas = 0;
@@ -25,11 +26,11 @@ public class Metodos_validacao {
     private boolean validaDominio(String email) {
         ArrayList<String> endereco = new ArrayList<>();
         String[] emailVetor = email.split("");
-        
+
         for (int i = email.lastIndexOf('.') + 1; i < emailVetor.length; i++) {
             endereco.add(emailVetor[i]);
         }
-        
+
         String dominio = String.join("", endereco);
 
         if ("com".equals(dominio) || "edu".equals(dominio) || "gov".equals(dominio) || "br".equals(dominio)) {
@@ -39,84 +40,129 @@ public class Metodos_validacao {
         }
     }
 
-    String ValidacaoSenha() {
-        Scanner input = new Scanner(System.in);
-        Metodos_validacao metodo = new Metodos_validacao();
-        String senha = null;
-        char senhaVetor[];
-        boolean oitoDigitos;
+    boolean validaTudoSenha(String senha) {
+        Metodos_validacao metodos = new Metodos_validacao();
         boolean senhaValida = false;
-        boolean possuiMaiusculas;
-        boolean possuiMinusculas;
-        boolean possuiEspecial;
-        boolean possuiNumeros = false;
+        String mensagemErro = "";
+
+        if (metodos.validaSenhaMaiuscula(senha) && metodos.validaSenhaMinuscula(senha) && metodos.validaSenhaCaractereEspecial(senha) && metodos.validaSenhaNumero(senha) && metodos.validaTamanhoMinimo(senha)) {
+            senhaValida = true;
+        } else {
+            if (!metodos.validaSenhaMaiuscula(senha)) {
+                mensagemErro += "Senha não possui letras maiusculas\n";
+            }
+            if (!metodos.validaSenhaMinuscula(senha)) {
+                mensagemErro += "Senha não possui letras minusculas\n";
+            }
+            if (!metodos.validaSenhaCaractereEspecial(senha)) {
+                mensagemErro += "Senha não possui caracteres especiais\n";
+            }
+            if (!metodos.validaSenhaNumero(senha)) {
+                mensagemErro += "Senha não possui numeros\n";
+            }
+            if (!metodos.validaTamanhoMinimo(senha)) {
+                mensagemErro += "Senha não possui pelo menos 8 caracteres\n";
+            }
+        }
+
+        return senhaValida;
+    }
+
+    String mostraErros(String senha) {
+        Metodos_validacao metodos = new Metodos_validacao();
+        String mensagemErro = "";
+        
+        if (!metodos.validaSenhaMaiuscula(senha)) {
+            mensagemErro += "Senha não possui letras maiusculas\n";
+        }
+        if (!metodos.validaSenhaMinuscula(senha)) {
+            mensagemErro += "Senha não possui letras minusculas\n";
+        }
+        if (!metodos.validaSenhaCaractereEspecial(senha)) {
+            mensagemErro += "Senha não possui caracteres especiais\n";
+        }
+        if (!metodos.validaSenhaNumero(senha)) {
+            mensagemErro += "Senha não possui numeros\n";
+        }
+        if (!metodos.validaTamanhoMinimo(senha)) {
+            mensagemErro += "Senha não possui pelo menos 8 caracteres\n";
+        }
+
+        return mensagemErro;
+    }
+
+    private boolean validaSenhaMaiuscula(String senha) {
         char maiusculas[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
+        char senhaVetor[];
+        senhaVetor = senha.toCharArray();
+        boolean possuiMaiusculas = false;
+
+        for (int i = 0; i < senhaVetor.length; i++) {
+            for (int j = 0; j < maiusculas.length; j++) {
+                if (senhaVetor[i] == maiusculas[j]) {
+                    possuiMaiusculas = true;
+                }
+            }
+        }
+
+        return possuiMaiusculas;
+    }
+
+    private boolean validaSenhaMinuscula(String senha) {
         char minusculas[] = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+        char senhaVetor[];
+        senhaVetor = senha.toCharArray();
+        boolean possuiMinusculas = false;
+
+        for (int i = 0; i < senhaVetor.length; i++) {
+            for (int j = 0; j < minusculas.length; j++) {
+                if (senhaVetor[i] == minusculas[j]) {
+                    possuiMinusculas = true;
+                }
+            }
+        }
+
+        return possuiMinusculas;
+    }
+
+    private boolean validaSenhaNumero(String senha) {
         char numeros[] = "1234567890".toCharArray();
+        char[] senhaVetor = senha.toCharArray();
+        boolean possuiNumeros = false;
+
+        for (int i = 0; i < senhaVetor.length; i++) {
+            for (int j = 0; j < numeros.length; j++) {
+                if (senhaVetor[i] == numeros[j]) {
+                    possuiNumeros = true;
+                }
+            }
+        }
+
+        return possuiNumeros;
+    }
+
+    private boolean validaSenhaCaractereEspecial(String senha) {
+        boolean possuiEspecial = false;
+        char[] senhaVetor = senha.toCharArray();
+
         char[] especial = "@#$%&/*-!_-".toCharArray();
 
-        while (!senhaValida) {
-            oitoDigitos = false;
-            possuiMaiusculas = false;
-            possuiMinusculas = false;
-            possuiEspecial = false;
-
-            System.out.print("Digite uma senha\n>");
-            senha = input.next();
-            senhaVetor = senha.toCharArray();
-
-            for (int i = 0; i < senhaVetor.length; i++) {
-                for (int j = 0; j < maiusculas.length; j++) {
-                    if (senhaVetor[i] == maiusculas[j]) {
-                        possuiMaiusculas = true;
-                    }
-                    if (senhaVetor[i] == minusculas[j]) {
-                        possuiMinusculas = true;
-                    }
+        for (int i = 0; i < senhaVetor.length; i++) {
+            for (int j = 0; j < especial.length; j++) {
+                if (senhaVetor[i] == especial[j]) {
+                    possuiEspecial = true;
                 }
             }
-
-            for (int i = 0; i < senhaVetor.length; i++) {
-                for (int j = 0; j < especial.length; j++) {
-                    if (senhaVetor[i] == especial[j]) {
-                        possuiEspecial = true;
-                    }
-                }
-            }
-            for (int i = 0; i < senhaVetor.length; i++) {
-                for (int j = 0; j < numeros.length; j++) {
-                    if (senhaVetor[i] == numeros[j]) {
-                        possuiNumeros = true;
-                    }
-                }
-            }
-
-            if (senha.length() >= 8) {
-                oitoDigitos = true;
-            } else {
-                System.out.println("   Senha não tem 8 digitos.");
-            }
-
-            if (!possuiMaiusculas) {
-                System.out.println("   Senha não possui caracteres maiusculos.");
-            }
-            if (!possuiMinusculas) {
-                System.out.println("   Senha não possui caracteres minusculos.");
-            }
-            if (!possuiEspecial) {
-                System.out.println("   Senha não possui caracteres especiais ");
-            }
-            if (!possuiNumeros) {
-                System.out.println("   Senha não possui numeros ");
-            }
-
-            if (oitoDigitos && possuiMaiusculas && possuiMinusculas && possuiEspecial && possuiNumeros) {
-                senhaValida = true;
-            }
-
         }
-        return senha;
+
+        return possuiEspecial;
     }
-    
-    private boolean valida 
+
+    private boolean validaTamanhoMinimo(String senha) {
+        boolean minimo = false;
+        if (senha.length() >= 8) {
+            minimo = true;
+        }
+        return minimo;
+    }
 }
