@@ -1,8 +1,6 @@
 package UsuarioESenha;
 
 import java.util.ArrayList;
-import java.util.Scanner;
-import javax.swing.JOptionPane;
 
 public class Metodos_validacao {
 
@@ -38,6 +36,29 @@ public class Metodos_validacao {
         } else {
             return false;
         }
+    }
+    
+    boolean validaTudoEmail(String email){
+        boolean emailCerto = false;
+        
+        if(validaArroba(email) && validaDominio(email)){
+            emailCerto = true;
+        }
+        
+        return emailCerto;
+    }
+    
+    String mostraErroEmail(String email){
+        String erros = "";
+        
+        if(!validaArroba(email)){
+            erros += "Email não possui sinal de @\n";
+        }
+        if(!validaDominio(email)){
+            erros += "Dominio inválido";
+        }
+        
+        return erros;
     }
 
     boolean validaTudoSenha(String senha) {

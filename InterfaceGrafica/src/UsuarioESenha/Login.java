@@ -41,13 +41,13 @@ public class Login extends javax.swing.JFrame {
         setTitle("Login");
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel2.setText("Usuário");
+        jLabel2.setText("Email");
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel3.setText("Senha");
 
         botaoEntrar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        botaoEntrar.setText("Entrar");
+        botaoEntrar.setText("Criar conta");
         botaoEntrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botaoEntrarActionPerformed(evt);
@@ -65,20 +65,17 @@ public class Login extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(43, 43, 43)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(93, 93, 93)
-                        .addComponent(botaoEntrar))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel2))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txtUsuario)
-                            .addComponent(txtSenha, javax.swing.GroupLayout.DEFAULT_SIZE, 154, Short.MAX_VALUE))))
-                .addContainerGap(15, Short.MAX_VALUE))
+                    .addComponent(botaoEntrar)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(txtUsuario)
+                        .addComponent(txtSenha, javax.swing.GroupLayout.DEFAULT_SIZE, 154, Short.MAX_VALUE)))
+                .addContainerGap(27, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -91,9 +88,9 @@ public class Login extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(txtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(64, 64, 64)
+                .addGap(61, 61, 61)
                 .addComponent(botaoEntrar)
-                .addContainerGap(72, Short.MAX_VALUE))
+                .addContainerGap(75, Short.MAX_VALUE))
         );
 
         pack();
@@ -102,9 +99,19 @@ public class Login extends javax.swing.JFrame {
     private void botaoEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoEntrarActionPerformed
         // TODO add your handling code here:
         Metodos_validacao metodos = new Metodos_validacao();
+        String email = txtUsuario.getText();
+        String senha = txtSenha.getText();
 
-        JOptionPane.showMessageDialog(this, metodos.mostraErros(senha), "Erro", JOptionPane.ERROR_MESSAGE);
-
+        if (metodos.validaTudoSenha(senha) && metodos.validaTudoEmail(email)) {
+            JOptionPane.showConfirmDialog(rootPane, "Tudo certo com a senha!", "Confirmação", JOptionPane.INFORMATION_MESSAGE);
+        } else {
+            if (!metodos.validaTudoEmail(email)) {
+                JOptionPane.showConfirmDialog(rootPane, "Erro com o email:\n" + metodos.mostraErroEmail(email), "Erro", JOptionPane.ERROR_MESSAGE);
+            }
+            if (!metodos.validaTudoSenha(senha)) {
+                JOptionPane.showConfirmDialog(rootPane, "Erro com a senha:\n" + metodos.mostraErros(senha), "Erro", JOptionPane.ERROR_MESSAGE);
+            }
+        }
     }//GEN-LAST:event_botaoEntrarActionPerformed
 
     private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsuarioActionPerformed
