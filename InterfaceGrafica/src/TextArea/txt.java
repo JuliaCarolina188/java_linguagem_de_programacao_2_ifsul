@@ -93,7 +93,7 @@ public class txt extends javax.swing.JFrame {
     private void mesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mesActionPerformed
         // TODO add your handling code here:
         areaDeTexto.setText("");
-        String meses[] = {"Janeiro", "fevereiro", "a", "b", "c", "a", "s"};
+        String meses[] = {"Janeiro", "Fevereiro", "Maio", "Abril", "Março", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
         for (String mes : meses) {
             areaDeTexto.append(mes + "\n");
         }
