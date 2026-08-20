@@ -6,19 +6,15 @@ public class Metodos_validacao {
 
     private boolean validaArroba(String email) {
         String[] emailVetor = email.split("");
-        byte arrobas = 0;
+        boolean arrobas = false;
 
         for (int i = 0; i < emailVetor.length - 1; i++) {
             if ("@".equals(emailVetor[i])) {
-                arrobas += 1;
+                arrobas = true;
             }
         }
 
-        if (arrobas == 1) {
-            return true;
-        } else {
-            return false;
-        }
+        return arrobas;
     }
 
     private boolean validaDominio(String email) {
@@ -64,26 +60,9 @@ public class Metodos_validacao {
     boolean validaTudoSenha(String senha) {
         Metodos_validacao metodos = new Metodos_validacao();
         boolean senhaValida = false;
-        String mensagemErro = "";
 
         if (metodos.validaSenhaMaiuscula(senha) && metodos.validaSenhaMinuscula(senha) && metodos.validaSenhaCaractereEspecial(senha) && metodos.validaSenhaNumero(senha) && metodos.validaTamanhoMinimo(senha)) {
             senhaValida = true;
-        } else {
-            if (!metodos.validaSenhaMaiuscula(senha)) {
-                mensagemErro += "Senha não possui letras maiusculas\n";
-            }
-            if (!metodos.validaSenhaMinuscula(senha)) {
-                mensagemErro += "Senha não possui letras minusculas\n";
-            }
-            if (!metodos.validaSenhaCaractereEspecial(senha)) {
-                mensagemErro += "Senha não possui caracteres especiais\n";
-            }
-            if (!metodos.validaSenhaNumero(senha)) {
-                mensagemErro += "Senha não possui numeros\n";
-            }
-            if (!metodos.validaTamanhoMinimo(senha)) {
-                mensagemErro += "Senha não possui pelo menos 8 caracteres\n";
-            }
         }
 
         return senhaValida;
