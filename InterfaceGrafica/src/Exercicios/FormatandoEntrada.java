@@ -2,20 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Slide;
-
-import javax.swing.JOptionPane;
+package Exercicios;
 
 /**
  *
  * @author 20241SG.INF_I0053
  */
-public class slide extends javax.swing.JFrame {
-
+public class FormatandoEntrada extends javax.swing.JFrame {
     /**
-     * Creates new form slide
+     * Creates new form Formato
      */
-    public slide() {
+    public FormatandoEntrada() {
         initComponents();
     }
 
@@ -28,20 +25,17 @@ public class slide extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Slider = new javax.swing.JSlider();
+        jSpinner1 = new javax.swing.JSpinner();
+        telefone = new javax.swing.JFormattedTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        Slider.addChangeListener(new javax.swing.event.ChangeListener() {
-            public void stateChanged(javax.swing.event.ChangeEvent evt) {
-                SliderStateChanged(evt);
-            }
-        });
-        Slider.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseDragged(java.awt.event.MouseEvent evt) {
-                SliderMouseDragged(evt);
-            }
-        });
+        try {
+            telefone.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("(##) ####-####")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+        telefone.setToolTipText("Digite seu número de telefone");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -49,34 +43,19 @@ public class slide extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(Slider, javax.swing.GroupLayout.PREFERRED_SIZE, 666, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(telefone, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(Slider, javax.swing.GroupLayout.DEFAULT_SIZE, 42, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(telefone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    
-    private void SliderMouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_SliderMouseDragged
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SliderMouseDragged
-
-    private void SliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_SliderStateChanged
-        // TODO add your handling code here:
-        if (Slider.getValue() == Slider.getMaximum()){
-            JOptionPane.showConfirmDialog(this, "Valor máximo alcançado", "Evento especial ", JOptionPane.DEFAULT_OPTION);
-        }
-        if (Slider.getValue() == Slider.getMinimum()){
-            JOptionPane.showConfirmDialog(this, "Valor mínimo alcançado", "Evento especial ", JOptionPane.DEFAULT_OPTION);
-        }
-    }//GEN-LAST:event_SliderStateChanged
 
     /**
      * @param args the command line arguments
@@ -95,25 +74,26 @@ public class slide extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(slide.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormatandoEntrada.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(slide.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormatandoEntrada.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(slide.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormatandoEntrada.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(slide.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormatandoEntrada.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new slide().setVisible(true);
+                new FormatandoEntrada().setVisible(true);
             }
         });
     }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JSlider Slider;
+    private javax.swing.JSpinner jSpinner1;
+    private javax.swing.JFormattedTextField telefone;
     // End of variables declaration//GEN-END:variables
 }

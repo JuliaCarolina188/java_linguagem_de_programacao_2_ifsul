@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Coliridnho;
+package Exercicios;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -11,12 +11,12 @@ import java.awt.Font;
  *
  * @author 20241SG.INF_I0053
  */
-public class Coloridinho extends javax.swing.JFrame {
+public class FormatacaoFonte extends javax.swing.JFrame {
 
     /**
      * Creates new form Coloridinho
      */
-    public Coloridinho() {
+    public FormatacaoFonte() {
         initComponents();
     }
 
@@ -317,20 +317,21 @@ public class Coloridinho extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Coloridinho.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormatacaoFonte.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Coloridinho.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormatacaoFonte.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Coloridinho.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormatacaoFonte.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Coloridinho.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormatacaoFonte.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Coloridinho().setVisible(true);
+                new FormatacaoFonte().setVisible(true);
             }
         });
     }

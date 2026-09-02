@@ -1,19 +1,23 @@
+package Exercicios;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package TextArea;
+
 
 /**
  *
  * @author 20241SG.INF_I0053
  */
-public class txt extends javax.swing.JFrame {
+public class BarraDeProgresso extends javax.swing.JFrame {
+
+    int totalBarra = 0;
 
     /**
-     * Creates new form txt
+     * Creates new form TextArea
      */
-    public txt() {
+    public BarraDeProgresso() {
         initComponents();
     }
 
@@ -26,28 +30,23 @@ public class txt extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        areaDeTexto = new javax.swing.JTextArea();
-        semana = new javax.swing.JButton();
-        mes = new javax.swing.JButton();
+        barra = new javax.swing.JProgressBar();
+        aumentarButton = new javax.swing.JButton();
+        diminiurButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        areaDeTexto.setColumns(20);
-        areaDeTexto.setRows(5);
-        jScrollPane1.setViewportView(areaDeTexto);
-
-        semana.setText("semana");
-        semana.addActionListener(new java.awt.event.ActionListener() {
+        aumentarButton.setText("Aumentar");
+        aumentarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                semanaActionPerformed(evt);
+                aumentarButtonActionPerformed(evt);
             }
         });
 
-        mes.setText("mes");
-        mes.addActionListener(new java.awt.event.ActionListener() {
+        diminiurButton.setText("Diminuir");
+        diminiurButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mesActionPerformed(evt);
+                diminiurButtonActionPerformed(evt);
             }
         });
 
@@ -55,49 +54,42 @@ public class txt extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(47, 47, 47)
-                .addComponent(semana)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(127, 127, 127)
+                .addComponent(diminiurButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(mes)
-                .addGap(54, 54, 54))
+                .addComponent(aumentarButton)
+                .addGap(84, 84, 84))
             .addGroup(layout.createSequentialGroup()
-                .addGap(59, 59, 59)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 441, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(75, Short.MAX_VALUE))
+                .addGap(52, 52, 52)
+                .addComponent(barra, javax.swing.GroupLayout.PREFERRED_SIZE, 650, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(57, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(21, 21, 21)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 183, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(43, 43, 43)
+                .addComponent(barra, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(semana)
-                    .addComponent(mes))
-                .addGap(27, 27, 27))
+                    .addComponent(diminiurButton)
+                    .addComponent(aumentarButton))
+                .addGap(55, 55, 55))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void semanaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_semanaActionPerformed
+    private void aumentarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aumentarButtonActionPerformed
         // TODO add your handling code here:
-        areaDeTexto.setText("");
-        String dias[] = {"Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"};
-        for (String dia : dias) {
-            areaDeTexto.append(dia + "\n");
-        }
-    }//GEN-LAST:event_semanaActionPerformed
+        barra.setValue(totalBarra += 10);
+    }//GEN-LAST:event_aumentarButtonActionPerformed
 
-    private void mesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mesActionPerformed
+    private void diminiurButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_diminiurButtonActionPerformed
         // TODO add your handling code here:
-        areaDeTexto.setText("");
-        String meses[] = {"Janeiro", "Fevereiro", "Maio", "Abril", "Março", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
-        for (String mes : meses) {
-            areaDeTexto.append(mes + "\n");
-        }
-    }//GEN-LAST:event_mesActionPerformed
+        barra.setValue(totalBarra -= 10);
+
+    }//GEN-LAST:event_diminiurButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -116,28 +108,30 @@ public class txt extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(txt.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BarraDeProgresso.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(txt.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BarraDeProgresso.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(txt.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BarraDeProgresso.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(txt.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BarraDeProgresso.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new txt().setVisible(true);
+                new BarraDeProgresso().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextArea areaDeTexto;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JButton mes;
-    private javax.swing.JButton semana;
+    private javax.swing.JButton aumentarButton;
+    private javax.swing.JProgressBar barra;
+    private javax.swing.JButton diminiurButton;
     // End of variables declaration//GEN-END:variables
 }
