@@ -4,7 +4,10 @@
  */
 package JULIA_CAROLINA_CADASTRO;
 
+import static java.lang.Float.parseFloat;
 import static java.lang.Integer.parseInt;
+import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 
 /**
  *
@@ -45,7 +48,7 @@ public class JULIA_CAROLINA_CADASTRO extends javax.swing.JFrame {
         alturafield = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        imclabel = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
         situacaolabel = new javax.swing.JLabel();
@@ -69,7 +72,7 @@ public class JULIA_CAROLINA_CADASTRO extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null}
             },
             new String [] {
-                "Nome", "Gênero", "Idade", "Modalidade", "Altura", "Peso", "IMC"
+                "Nome", "Gênero", "Nascimento", "Modalidade", "Altura", "Peso", "IMC"
             }
         ));
         jScrollPane2.setViewportView(jTable1);
@@ -116,7 +119,7 @@ public class JULIA_CAROLINA_CADASTRO extends javax.swing.JFrame {
 
         jLabel7.setText("IMC: ");
 
-        jLabel8.setText("0%");
+        imclabel.setText("0%");
 
         jButton1.setText("Calcular IMC");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -195,7 +198,7 @@ public class JULIA_CAROLINA_CADASTRO extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel7)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel8))
+                        .addComponent(imclabel))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel9)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -258,7 +261,7 @@ public class JULIA_CAROLINA_CADASTRO extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
-                    .addComponent(jLabel8))
+                    .addComponent(imclabel))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
@@ -287,6 +290,37 @@ public class JULIA_CAROLINA_CADASTRO extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        JULIA_CAROLINA_CALCULOS pessoa = new JULIA_CAROLINA_CALCULOS();
+
+        try {
+            pessoa.setAltura(parseFloat(alturafield.getText()));
+        } catch (Exception e) {
+            JOptionPane.showConfirmDialog(rootPane, "Adicione uma altura válida", "Erro", JOptionPane.ERROR_MESSAGE);
+        }
+
+        try {
+            String texto = pesofield.getText();
+            float peso = Float.parseFloat(texto);
+            pessoa.setPeso(peso);
+        } catch (Exception e) {
+            JOptionPane.showConfirmDialog(rootPane, "Adicione um peso válido", "Erro", JOptionPane.ERROR_MESSAGE);
+        }
+
+        try {
+            imclabel.setText(pessoa.Imc() + "%");
+            situacaolabel.setText(pessoa.Condicao());
+
+        } catch (Exception e) {
+            JOptionPane.showConfirmDialog(rootPane, "Erro ao calcular o IMC", "Erro", JOptionPane.ERROR_MESSAGE);
+
+        }
+
+        try {
+            DefaultTableModel grid = (DefaultTableModel) jTable1.getModel();
+            grid.addRow(new String[]{pessoa.getNome(), pessoa.getSexo(), Stringparse(pessoa.getAnoNascimento())});
+        } catch (Exception e){
+            
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -294,28 +328,57 @@ public class JULIA_CAROLINA_CADASTRO extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
+        this.dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         JULIA_CAROLINA_CALCULOS pessoa = new JULIA_CAROLINA_CALCULOS();
 
-        pessoa.setNome(nomefield.getText());
+        if (!nomefield.getText().equals("")) {
+            pessoa.setNome(nomefield.getText());
+        } else {
+            JOptionPane.showConfirmDialog(rootPane, "Adicione um nome válido", "Erro", JOptionPane.ERROR_MESSAGE);
+        }
 
-        String[] dataNascimento = nascimentofield.getText().split("/");
-        situacaolabel.setText("Dia: " + dataNascimento[0] + " Mes: " + dataNascimento[1] + " Ano: " + dataNascimento[2]);
+        try {
+            String[] dataNascimento = nascimentofield.getText().split("/");
+            pessoa.setDiaNascimento(parseInt(dataNascimento[0]));
+            pessoa.setMesNascimento(parseInt(dataNascimento[1]));
+            pessoa.setAnoNascimento(parseInt(dataNascimento[2]));
+        } catch (Exception e) {
+            JOptionPane.showConfirmDialog(rootPane, "Adicione uma data de nascimento válida", "Erro", JOptionPane.ERROR_MESSAGE);
+        }
 
-        //pessoa.setDiaNascimento();
-        //pessoa.setMesNascimento();
-        //pessoa.setAnoNascimento();
+        pessoa.setSexo((String) sexofield.getSelectedItem());
 
+        try {
+            pessoa.setAltura(parseFloat(alturafield.getText()));
+        } catch (Exception e) {
+            JOptionPane.showConfirmDialog(rootPane, "Adicione uma altura válida", "Erro", JOptionPane.ERROR_MESSAGE);
+        }
+
+        try {
+            String texto = pesofield.getText();
+            float peso = Float.parseFloat(texto);
+            pessoa.setPeso(peso);
+        } catch (Exception e) {
+            JOptionPane.showConfirmDialog(rootPane, "Adicione um peso válido", "Erro", JOptionPane.ERROR_MESSAGE);
+        }
+        try {
+            imclabel.setText(pessoa.Imc() + "%");
+            situacaolabel.setText(pessoa.Condicao());
+
+        } catch (Exception e) {
+            JOptionPane.showConfirmDialog(rootPane, "Erro ao calcular o IMC", "Erro", JOptionPane.ERROR_MESSAGE);
+
+        }
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         String[] dataNascimento = nascimentofield.getText().split("/");
         int mes = parseInt(dataNascimento[1]);
-        String meses[] = {" ","Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
-        nascimentolabel.setText("Nascido no dia " + dataNascimento[0] + " de " + meses[mes]+ " de " + dataNascimento[2]);
+        String meses[] = {"", "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
+        nascimentolabel.setText("Nascido no dia " + dataNascimento[0] + " de " + meses[mes] + " de " + dataNascimento[2]);
 
 
     }//GEN-LAST:event_jButton5ActionPerformed
@@ -357,6 +420,7 @@ public class JULIA_CAROLINA_CADASTRO extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField alturafield;
+    private javax.swing.JLabel imclabel;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -369,7 +433,6 @@ public class JULIA_CAROLINA_CADASTRO extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
